@@ -1,0 +1,275 @@
+***** This Requires Administrator Privileges *****
+
+For that app must be run as Administrator 
+
+
+***** Profiles *****
+
+Domain Profile - This is a button which is at the 1st position at left side. 
+	It can be ON or OFF the Domain Profile Firewall.
+
+Private Profile - This is a button which is at the 2nd position at left side.
+	It can be ON or OFF the Private Profile Firewall.
+
+Public Profile - This is a button which is at the 3rd position at left side.
+	It can be ON or OFF the Public Profile Firewall.
+
+All Profile - This is a button which is at the 4th position at left side.
+	It can be ON or OFF the All Profiles of Firewall.
+
+
+***** Allow or Block Incoming or Outgoing Traffic *****
+
+All In Block - This is a button which is at the 5th position at left side.
+	It can Block the all incoming network traffic.
+
+All Out Block - This is a button which is at the 6th position at left side.
+	It can Block the all outgoing network traffic.
+
+Domain IN Block - This is a button which is at the 7th position at left side.
+	It can Block the incoming domain network traffic.
+
+Domain Out Block - This is a button which is at the 8th position at left side.
+	It can Block the outgoing domain network traffic.
+
+Private In Block - This is a button which is at the 9th position at left side.
+	It can Block the incoming private network traffic.
+
+Private Out Block - This is a button which is at the 10th position at left side.
+	It can Block the outgoing private network traffic.
+
+Public In Block - This is a button which is at the 11th position at left side.
+	It can Block the incoming  public network traffic.
+
+Public Out Block - This is a button which is at the 12th position at left side.
+	It can Block the outgoing public network traffic.
+
+
+***** Important Notes *****
+
+First 4 button by default Green and ON it means all profiles firewall is ON
+
+From "All In Block" button to the "Public Out Block" button by default 
+Red and Block it means Nothing is Blocked. If it's Green and Blocked
+it means it Blocks Specified Network IN or OUT traffic.
+
+
+***** Reset Button *****
+
+There is reset button at the bottom left 2nd position when you click on
+that it show input message box which ask password and the password is 
+"reset@1234#1234"
+
+
+
+***** Monitoring *****
+
+There is a Monitor button at the bottom left last position when you click
+on that it generates a new window in which all the functionality is available
+for monitoring windows firewall.
+
+1) View All Firewall Rules : Generates a new windows where we can 
+monitor all windows firewall rules it is done by "Get Rules" Button, and
+"Clear the Rules" button used to clear the screen of rules. 
+There is input box and "Filter" button which is used to filter out specific
+rule using it's display name.
+
+2) Check Specific Rule : Check specific rule by entering rules specification
+then click on "Action" Button.
+Input Box : for entering rule name.
+Profile Dropdown Box : for selecting profile.
+Direction Dropdown Box : for selecting direction.
+Local IP : for entering local IP.
+Local Port : for entering local Port.
+Remote IP : for entering remote IP.
+Remote Port : for entering remote Port.
+Program File : for entering Program File name.
+File : this button is used to select File from system.
+Action : this button is used to perform action.
+
+3) Monitor Current Firewall State : This button generates a new window in 
+which "Firewall State" Button are there at bottom and by clicking that 
+button we will get the all firewall state.
+
+4) Firewall Logging : for logging
+Profile Dropdown Box : for selecting profile for enable the logging.
+AllowedConnections Dropdown Box : for selecting Enable or Disable or
+NotConfigured for storing the allowed connection's logs.
+DroppedConnections Dropdown Box : for selecting Enable or Disable or
+NotConfigured for storing the dropped connection's logs.
+Input Box : for entering log file name with extension ".log"
+File : This button is used to get or create a log file in system.
+File Size Input Box : for entering file size for log file.
+
+5) Check Log Setting : for checking log setting.
+Profile Dropdown Box : for selecting profile for which we want to check
+it's log setting.
+Action Button : by clicking this button to perform the task.
+
+6) View Windows Firewall Logs : for opening firewall logs in new window.
+Input Box : for entering log file name manually 
+File Button : for selecting or creating log file from system.
+Action Button : for performing action.
+
+
+***** Right Columns *****
+
+
+1) Allow Block Application : for allowing or blocking specific app on 
+windows.
+
+Rule Name : Enter the name of rule that you want to add.
+Description : Enter the description for the rule.
+Application Name : Enter the application name manually.
+File : This button used to get application file from system.
+L_IP : Enter the Local IP Address.
+L_Port : Enter the Local Port Number.
+R_IP : Enter the Remote IP Address.
+R_Port : Enter the Remote Port Number.
+Direction : Dropdown box for selecting Direction Inbound or Outbound.
+Action : Dropdown box for selecting Action Allow or Block
+Profile : Dropdown box for selecting Profile Domain,Public,Private.
+Protocol : Dropdown box for selecting Protocol eg. TCP, UDP...
+Service : Dropdown box for selecting Service eg. dhcp, ftp...
+Interface : Dropdown box for selecting Interface eg. Wireless...
+Security : Dropdown box for selecting Security eg. Authenticate...
+rmtcomputergrp : 'CN=Servers,CN=Users,DC=example,DC=com'
+rmtusrgrp : 'CN=ITUsers,CN=Users,DC=example,DC=com'
+Enable : Dropdown box for selecting Enable=Yes or No(No=Disable).
+Action : Button for performing Action.
+
+
+2) Allow Block Port : for allowing or blocking specific port on windows.
+
+Rule Name : Enter the name of rule that you want to add.
+Description : Enter the description for the rule.
+L_IP : Enter the Local IP Address.
+L_Port : Enter the Local Port Number.
+R_IP : Enter the Remote IP Address.
+R_Port : Enter the Remote Port Number.
+Direction : Dropdown box for selecting Direction Inbound or Outbound.
+Action : Dropdown box for selecting Action Allow or Block
+Profile : Dropdown box for selecting Profile Domain,Public,Private.
+Protocol : Dropdown box for selecting Protocol eg. TCP, UDP...
+Enable : Dropdown box for selecting Enable=Yes or No(No=Disable).
+Action : Button for performing Action.
+
+
+3) Allow Block Service : for allowing or blocking service on windows.
+
+Rule Name : Enter the name of rule that you want to add.
+Description : Enter the description for the rule.
+L_IP : Enter the Local IP Address.
+L_Port : Enter the Local Port Number.
+R_IP : Enter the Remote IP Address.
+R_Port : Enter the Remote Port Number.
+Direction : Dropdown box for selecting Direction Inbound or Outbound.
+Action : Dropdown box for selecting Action Allow or Block
+Service : Dropdown box for selecting Service eg. dhcp, ftp...
+Protocol : Dropdown box for selecting Protocol eg. TCP, UDP...
+Profile : Dropdown box for selecting Profile Domain,Public,Private.
+Interface : Dropdown box for selecting Interface eg. Wireless...
+Edge : Dropdown box for selecting Edge Traversal eg. Yes or No...
+Enable : Dropdown box for selecting Enable=Yes or No(No=Disable).
+Action : Button for performing Action.
+
+
+4) Allow Block Private IP : for allowing or blocking Private IP.
+
+Rule Name : Enter the name of rule that you want to add.
+Description : Enter the description for the rule.
+L_IP : Enter the Local IP Address.
+L_Port : Enter the Local Port Number.
+R_IP : Enter the Remote IP Address.
+R_Port : Enter the Remote Port Number.
+Direction : Dropdown box for selecting Direction Inbound or Outbound.
+Action : Dropdown box for selecting Action Allow or Block
+Protocol : Dropdown box for selecting Protocol eg. TCP, UDP...
+Profile : Dropdown box for selecting Profile Domain,Public,Private.
+Interface : Dropdown box for selecting Interface eg. Wireless...
+Edge : Dropdown box for selecting Edge Traversal eg. Yes or No...
+Enable : Dropdown box for selecting Enable=Yes or No(No=Disable).
+Action : Button for performing Action.
+
+
+5) Allow Block Public IP : for allowing or blocking Public IP.
+
+Rule Name : Enter the name of rule that you want to add.
+Description : Enter the description for the rule.
+L_IP : Enter the Local IP Address.
+L_Port : Enter the Local Port Number.
+R_IP : Enter the Remote IP Address.
+R_Port : Enter the Remote Port Number.
+Direction : Dropdown box for selecting Direction Inbound or Outbound.
+Action : Dropdown box for selecting Action Allow or Block
+Protocol : Dropdown box for selecting Protocol eg. TCP, UDP...
+Profile : Dropdown box for selecting Profile Domain,Public,Private.
+Interface : Dropdown box for selecting Interface eg. Wireless...
+Edge : Dropdown box for selecting Edge Traversal eg. Yes or No...
+Enable : Dropdown box for selecting Enable=Yes or No(No=Disable).
+Action : Button for performing Action.
+
+
+6) Import or Export Firewall Rule : for importing or exporting rule.
+
+File name : Enter the file name with .wfw extension manually.
+File : By clicking this button get .wfw file from system.
+Import : By clicking this button perform Importing.
+Export : By clicking this button perform Exporting.
+
+
+7) Modify Existing Firewall Rule : for modifying existing rule.
+
+Rule Name : Enter the name of rule that you want to add.
+New Rule Name : Enter the Rename for existing rule name.
+Description : Enter the description for the rule.
+Application Name : Enter the application name manually.
+File : This button used to get application file from system.
+L_IP : Enter the Local IP Address.
+L_Port : Enter the Local Port Number.
+R_IP : Enter the Remote IP Address.
+R_Port : Enter the Remote Port Number.
+Direction : Dropdown box for selecting Direction Inbound or Outbound.
+Profile : Dropdown box for selecting Profile Domain,Public,Private.
+Protocol : Dropdown box for selecting Protocol eg. TCP, UDP...
+Action : Dropdown box for selecting Action Allow or Block
+Interface : Dropdown box for selecting Interface eg. Wireless...
+Security : Dropdown box for selecting Security eg. Authenticate...
+Enable : Dropdown box for selecting Enable=Yes or No(No=Disable).
+Edge : Dropdown box for selecting Edge Traversal eg. Yes or No...
+rmtcomputergrp : 'CN=Servers,CN=Users,DC=example,DC=com'
+rmtusrgrp : 'CN=ITUsers,CN=Users,DC=example,DC=com'
+Action : Button for performing Action.
+
+
+8) Delete Firewall Rule : for deleting firewall rule.
+
+Rule Name : Enter the name of rule that you want to add.
+Rule Group : Enter the name of group of firewall rules.
+File Name : Enter the application name manually.
+File : This button used to get application file from system.
+L_IP : Enter the Local IP Address.
+L_Port : Enter the Local Port Number.
+R_IP : Enter the Remote IP Address.
+R_Port : Enter the Remote Port Number.
+Direction : Dropdown box for selecting Direction Inbound or Outbound.
+Profile : Dropdown box for selecting Profile Domain,Public,Private.
+Service : Dropdown box for selecting Service eg. dhcp, ftp...
+Protocol : Dropdown box for selecting Protocol eg. TCP, UDP...
+Action : Button for performing Action.
+
+
+***** Correct Way to Enter IP *****
+
+10.0.5.10 - single IP
+192.168.0.0/24 - IP inside Subnet Block
+192.168.5.10-20 - Range of IP's
+172.16.1.1,172.16.1.50,... - Multiple IP's
+
+
+
+
+
+
+
+
